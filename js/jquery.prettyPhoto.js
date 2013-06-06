@@ -47,7 +47,7 @@
 								<div class="pp_content"> \
 									<div class="pp_loaderIcon"></div> \
 									<div class="pp_fade"> \
-										<a href="#" class="pp_expand" title="Expand the image">Expand</a> \
+										<a href="#" class="pp_expand" title="Expand the image">Развернуть</a> \
 										<div class="pp_hoverContainer"> \
 											<a class="pp_next" href="#">next</a> \
 											<a class="pp_previous" href="#">previous</a> \
@@ -55,13 +55,13 @@
 										<div id="pp_full_res"></div> \
 										<div class="pp_details"> \
 											<div class="pp_nav"> \
-												<a href="#" class="pp_arrow_previous">Previous</a> \
+												<a href="#" class="pp_arrow_previous">Назад</a> \
 												<p class="currentTextHolder">0/0</p> \
-												<a href="#" class="pp_arrow_next">Next</a> \
+												<a href="#" class="pp_arrow_next">Вперед</a> \
 											</div> \
 											<p class="pp_description"></p> \
 											<div class="pp_social">{pp_social}</div> \
-											<a class="pp_close" href="#">Close</a> \
+											<a class="pp_close" href="#">Закрыть</a> \
 										</div> \
 									</div> \
 								</div> \
@@ -76,13 +76,13 @@
 					</div> \
 					<div class="pp_overlay"></div>',
 			gallery_markup: '<div class="pp_gallery"> \
-								<a href="#" class="pp_arrow_previous">Previous</a> \
+								<a href="#" class="pp_arrow_previous">Назад</a> \
 								<div> \
 									<ul> \
 										{gallery} \
 									</ul> \
 								</div> \
-								<a href="#" class="pp_arrow_next">Next</a> \
+								<a href="#" class="pp_arrow_next">Вперед</a> \
 							</div>',
 			image_markup: '<img id="fullResImage" src="{path}" />',
 			flash_markup: '<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="{width}" height="{height}"><param name="wmode" value="{wmode}" /><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="{path}" /><embed src="{path}" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="{width}" height="{height}" wmode="{wmode}"></embed></object>',
